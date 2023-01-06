@@ -9,7 +9,7 @@ resource "aws_ami_copy" "test" {
   source_ami_region = "ap-south-1"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "HelloWorld1"
   }
 }
 
