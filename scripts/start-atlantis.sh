@@ -1,9 +1,8 @@
 #!/bin/sh
 set -e
 
-. ./atlantis.var
 
-./atlantis server \
+atlantis server \
 --atlantis-url="$URL" \
 --gh-user="$USERNAME" \
 --gh-token="$TOKEN" \
